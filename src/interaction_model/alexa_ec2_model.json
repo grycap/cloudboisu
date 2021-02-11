@@ -1,0 +1,58 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mis instancias",
+            "intents": [
+                {
+                    "name": "Start",
+                    "slots": [],
+                    "samples": [
+                        "iniciar",
+                        "iniciar mis instancias",
+                        "empezar",
+                        "empezar mis instancias"
+                    ]
+                },
+                {
+                    "name": "Stop",
+                    "slots": [],
+                    "samples": [
+                        "terminar",
+                        "parar",
+                        "detener",
+                        "parar mis instancias",
+                        "detener mis instancias",
+                        "terminar mis instancias"
+                    ]
+                },
+                {
+                    "name": "Describe",
+                    "slots": [],
+                    "samples": [
+                        "lista mis instancias",
+                        "dime mis instancias",
+                        "describe mis instancias",
+                        "describir"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
