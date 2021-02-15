@@ -9,3 +9,10 @@ These skills are prepared to test them in Alexa Developer Console once you invok
 5. Copy the lambda's function ARM (upper-right corner) inside the function and paste it in Amazon Developer Console in Default Region field (Endpoint menu)
 6. Update the JSON file from Interaction Model folder in the "Intents" menu (you can add intents as you consider) and add an invocation name in "Invocation" menu. Save and build the model. All of these options are in "Build" tab.
 7. In "Test" tab inside Amazon Developer Console invoke the skill saying the invoication name. You can interact with the skill with the options included in the Intent.
+
+# AWS CLI command to create a lambda function:
+aws lambda create-function \
+create-function --function alexaEC2 \
+--runtime python3.8 \ 
+--role (string of the IAM permission policy with EC2FullAccess and S3FullAccess) \
+--zip-file fileb://alexa_ec2.zip || alexa_s3.zip
